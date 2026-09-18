@@ -2,3 +2,8 @@
 
 /* Official client logo */
 .brand img{width:76px;height:60px;object-fit:contain}.cta aside img{width:190px;max-width:100%;height:auto;object-fit:contain}footer img{width:64px;height:48px;object-fit:contain}@media(max-width:800px){.brand img{width:64px;height:52px}.cta aside img{width:170px}footer img{width:52px}}
+
+/* Client-requested hero branding */
+.hero-bg{background:radial-gradient(circle at 50% 40%,rgba(227,27,35,.12),transparent 38%),linear-gradient(90deg,#050505f2 0%,#050505d9 44%,#050505b0 100%),url('assets/not-your-uncles-logo.png') center 38%/min(78vw,980px) auto no-repeat;background-color:#070707}
+@media(max-width:800px){.hero-bg{background:radial-gradient(circle at 50% 34%,rgba(227,27,35,.14),transparent 35%),linear-gradient(0deg,#070707 4%,#050505b8 60%,#050505d9 100%),url('assets/not-your-uncles-logo.png') center 30%/94vw auto no-repeat;background-color:#070707}.brand img{width:68px}.cta aside img{width:min(240px,80vw)}}
+.social-email{font-size:13px;word-break:break-word;color:#bbb!important}.instagram-link{display:inline-flex;align-items:center;gap:8px}.instagram-link:before{content:'◎';color:#e31b23;font-size:18px}
